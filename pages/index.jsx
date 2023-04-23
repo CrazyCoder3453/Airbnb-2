@@ -14,6 +14,10 @@ export default function Home({ exploreData, cardsData }) {
     <>
       <Head>
         <title>Airbnb</title>
+        <link
+          rel="shortcut icon"
+          href="https://static-00.iconduck.com/assets.00/airbnb-icon-512x512-d9grja5t.png"
+        />
       </Head>
       <Header />
       <Banner />
