@@ -5,12 +5,16 @@ import SmallCard from "./components/SmallCard";
 import MediumCard from "./components/MediumCard";
 import LargeCard from "./components/LargeCard";
 import Footer from "./components/Footer";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ exploreData, cardsData }) {
   return (
     <>
+      <Head>
+        <title>Airbnb</title>
+      </Head>
       <Header />
       <Banner />
 
